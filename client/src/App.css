@@ -1,0 +1,59 @@
+.app{
+  
+  display: grid;
+  grid-template-columns: 15% 85%;
+  
+  height: 100vh;
+
+}
+
+.sidebar{
+  background-color: #F5F7F8;
+ 
+}
+
+.brand-heading{
+  height: 10%;
+  background-color: #070F2B;
+  border-right: solid 1px black;
+}
+
+.navbar{
+  height: 10%;
+  background-color: #070F2B; 
+
+}
+
+.sidebar-content{
+  height : 90%;
+  border-right: 1px solid rgb(237, 230, 230);
+  padding-top: 50%;
+
+ 
+}
+
+.tabs{
+  max-width: 100%;
+  padding-left: 5%;
+  
+}
+.tab-button{
+  margin-top: 5%;
+  width: 95%;
+  padding : 5%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tab-button:hover{
+
+  background-color: #dfe2e2;
+}
+
+.tab-button.active{
+  background-color: #2d7bf8;
+  color: white;
+  transition:  0.5s;
+}
+
+
