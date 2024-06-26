@@ -8,28 +8,32 @@
 }
 
 .sidebar{
-  background-color: #F5F7F8;
+  background-color: #F8F9FA;
  
 }
 
 .brand-heading{
   height: 10%;
-  background-color: #070F2B;
+  background-color: #111827;
   border-right: solid 1px black;
 }
 
 .navbar{
   height: 10%;
-  background-color: #070F2B; 
+  background-color: #111827; 
 
 }
 
 .sidebar-content{
   height : 90%;
   border-right: 1px solid rgb(237, 230, 230);
-  padding-top: 50%;
+  padding-top: 7%;
 
  
+}
+
+.sidebar-icon{
+  display: inline;
 }
 
 .tabs{
@@ -56,4 +60,14 @@
   transition:  0.5s;
 }
 
-
+.avatar{
+  margin-top: 5px;
+  padding-top: 10px;
+  padding-left: 10px;
+  height: 80%;
+}
+.avatar:hover{
+  
+  border-radius: 5px;
+  background-color: #171f2f ;
+}
