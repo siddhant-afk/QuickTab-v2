@@ -71,3 +71,34 @@
   border-radius: 5px;
   background-color: #171f2f ;
 }
+
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content{
+  display : none;
+  position: absolute;
+  width: 80%;
+  
+  
+ 
+}
+.dropdown-content-active a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown-content-active{
+  display: block;
+  background-color: #F8F9FA;
+  box-shadow: 0px 8px 16px 0px rgba(92, 91, 91, 0.2);
+  margin-left: 15%;
+}
+
+.dropdown-content-active a:hover {background-color: #ddd;}
+
