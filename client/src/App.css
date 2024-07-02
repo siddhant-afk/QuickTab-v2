@@ -1,5 +1,5 @@
 .app{
-  
+
   display: grid;
   grid-template-columns: 15% 85%;
   
@@ -29,12 +29,13 @@
   background-color: #111827; 
   position : fixed;
   width: 100vw;
+  
 
 }
 
 .sidebar-content{
   height : 90%;
-  border-right: 1px solid rgb(237, 230, 230);
+  border-right: 1px solid #ede6e6;
   padding-top: 7%;
 
  
@@ -111,9 +112,21 @@
 .dropdown-content-active a:hover {background-color: #ddd;}
 
 .dashboard{
-  
+
   position: absolute;
   margin-top: 6.5%;
   margin-left: 17%;
+  height: 100%;
   z-index: -1;
+  
+  
+}
+
+.sales-chart{
+  border: 1px solid #ede6e6;
+margin-top: 5%;
+height : 400px;
+width : 1250px;
+background-color: white;
+
 }
